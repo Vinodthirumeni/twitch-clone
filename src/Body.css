@@ -1,0 +1,13 @@
+.body {
+  background-image: url("https://i.stack.imgur.com/jGlzr.png");
+  background-color: rgb(255, 153, 0);
+  flex: 1;
+  display: flex;
+  height: 100vh;
+  overflow: scroll;
+}
+
+
+.body__left{
+  width: 96%;
+}

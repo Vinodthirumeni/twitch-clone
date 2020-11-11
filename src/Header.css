@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+
+.header__leftLogo {
+  height: 50px;
+}
+
+.header__left,
+.header__center,
+.header__right,
+.header__rightBits {
+  display: flex;
+  align-items: center;
+}
+
+.header__rightBits {
+  margin-right: 20px;
+  padding: 0px 10px;
+  background-color: #8c8c8c;
+  height: 38px;
+  border-radius: 10px;
+}
+.header__rightBits > .MuiSvgIcon-root {
+  background: none;
+}
+.header__rightBits > p {
+  background: none;
+}
+.header__center {
+  width: 50%;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.header__left > p {
+  margin-left: 20px;
+  font-weight: 800;
+}
+
+.header__right > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.header__center > input {
+  width: 50%;
+  background-color: #8c8c8c;
+  border: none;
+  padding: 10px;
+  color: white;
+  /*border-radius: 10px;*/
+}
+
+.header__center > .MuiSvgIcon-root {
+  padding-left: 10px;
+  padding: 6px;
+  background: #404040;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
